@@ -1,0 +1,29 @@
+.container{
+	width: 950px;
+	position: relative;
+	padding: 0;
+	margin: 0px auto;
+	background: #f2f2f2;
+}
+.container .wrap-col{
+	margin: 10px;
+}
+
+.container .adjust-1, .container .adjust-0, .container .adjust-2 {
+	float: left;
+	display: inline-block;
+}
+
+.container .adjust-1{
+	width: 50%;
+}
+
+.container .adjust-0{
+	width: 100%;
+}
+.container .adjust-2{
+	width: 66.67%%;
+}
+.container .adjust-3{
+	width: 33.33%%;
+}
